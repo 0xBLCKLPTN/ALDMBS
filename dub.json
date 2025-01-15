@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Даниил Ермолаев"
+	],
+	"copyright": "Copyright © 2025, Даниил Ермолаев",
+	"description": "A minimal D application.",
+	"license": "MIT",
+	"name": "aldmbs"
+}
