@@ -3,7 +3,7 @@
 		"Даниил Ермолаев"
 	],
 	"copyright": "Copyright © 2025, Даниил Ермолаев",
-	"description": "A minimal D application.",
+	"description": "A simple Alice Database Manager",
 	"license": "MIT",
 	"name": "aldmbs"
 }
