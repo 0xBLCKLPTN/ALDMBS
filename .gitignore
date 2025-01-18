@@ -27,3 +27,7 @@ docs/
 # Added by cargo
 
 /target
+
+.zig-cache
+.zig-out
+.DS_Store
