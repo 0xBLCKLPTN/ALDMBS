@@ -1,5 +1,8 @@
 import std.stdio;
+import std.logger;
 import transaction;
+import instance_manager;
+
 
 void main()
 {
@@ -10,7 +13,12 @@ void main()
     manager.add_transaction(t1);
     manager.add_transaction(t2);
 
-    writeln("Transaction 1 ID: ", t1.transaction_id);
-    writeln("Transaction 2 ID: ", t2.transaction_id);
+    writeln("Transaction 1 ID: ", t1.tid);
+    writeln("Transaction 2 ID: ", t2.tid);
     writeln("Total transactions: ", manager.transactions_count());
+
+
+    InstanceManager im = new InstanceManager();
+    im.create_instance("instance4");
+    im.execute_transaction(t1);
 }
